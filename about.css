@@ -1,0 +1,378 @@
+body {
+  background-color: white;
+  font-family: 'Raleway', sans-serif;
+  height:auto;
+}
+
+.content {
+  margin: 0 auto;
+  padding: 40px;
+  text-align: center;
+  width: 70%;
+}
+
+.navigation ul {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.navigation li {
+  font-weight: 100;
+  letter-spacing: 2px;
+  padding: 20px;
+}
+
+.navigation  a.logo {
+  color: gold;
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: 4px;
+  background-color:purple;
+}
+
+#main {
+  margin: 0 auto;
+  padding: 40px;
+  text-align: center;
+  width: 400px;
+  height: 2000px;
+}
+
+h1 {
+  color: white;
+  font-size: 42px;
+  font-weight: 600;
+  text-align: center;
+}
+
+h2 {
+  border: 1px dotted purple;
+  color: red;
+  font-size: 14px;
+  line-height: 57px;
+  padding: 20px 500px;
+  margin: auto auto;
+  text-align: center;
+}
+
+h3 {
+  color: red;
+  font-size: 26px;
+  font-weight: 700;
+  padding: 20px 10px;
+}
+
+p {
+  color: grey;
+  font-size: 16px;
+  line-height: 48px;
+  margin-top: 60px;
+  padding: 10px 20px;
+}
+
+.pull-quote {
+  margin: -40px 150px;
+  width: 1000px;
+  text-align:initial;
+}
+
+.byline {
+  border-bottom: 1px solid LightGrey;
+  border-top: 1px solid LightGrey;
+  color: DarkGrey;
+  font-size: 14px;
+  font-weight: 200;
+}
+
+.share {
+  border: 1px solid LightGrey;
+  padding: 40px 0px;
+  position: relative;
+  text-align: center;
+  width: 100%;
+
+}
+
+.share a {
+  background: purple;
+  border: 3px solid gold;
+  border-radius: 3px;
+  color: white;
+  display: inline-block;
+  margin: 10px;
+  padding: 14px;
+  text-decoration: none;
+}
+
+a{
+  font-weight:600;
+}
+
+.share a.hover:hover {
+  background: gold;
+  border: 3px solid purple;
+  color: purple;
+}
+.share li {
+  background: red;
+  border: 1px solid red;
+  border-radius: 3px;
+  color: white;
+  display: inline-block;
+  margin: 10px;
+  padding: 14px;
+  text-decoration: none;
+}
+.share li:hover {
+  background: white;
+  border: 1px solid red;
+  color: red;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    border: 3px solid gold;
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+div.dropdown{
+  font-weight:600;
+}
+.dropdown span{
+  background: purple;
+  border: 3px solid gold;
+  border-radius: 3px;
+  color: white;
+  display: inline-block;
+  margin: 10px;
+  padding: 14px;
+  text-decoration: none;
+}
+img {
+  height:100px;
+  width:100px;
+  border-radius:50%;
+}
+.member{
+  display:grid;
+}
+
+
+.dot2 {
+  position:absolute;
+  margin-left:-400px;
+  margin-top:100px;
+  height: 100px;
+  width: 100px;
+  line-height:100px;
+  border-radius: 50%;
+  display:block;
+  background-color:gold;
+}
+.dot3 {
+   position:absolute;
+  margin-left:-400px;
+  margin-top:200px;
+  height: 100px;
+  width: 100px;
+  line-height:100px;
+  border-radius: 50%;
+  display:block;
+  background-color:gold;
+}.dot4 {
+  position:absolute;
+  margin-left:-400px;
+  margin-top:300px;
+  height: 100px;
+  width: 100px;
+  line-height:100px;
+  border-radius: 50%;
+  display:block;
+  background-color:gold;
+}.dot5 {
+   position:absolute;
+  margin-left:-400px;
+  margin-top:400px;
+  height: 100px;
+  width: 100px;
+  line-height:100px;
+  border-radius: 50%;
+  display:block;
+  background-color:gold;
+}.dot6 {
+   position:absolute;
+  margin-left:-400px;
+  margin-top:500px;
+  height: 100px;
+  width: 100px;
+  line-height:100px;
+  border-radius: 50%;
+  display:block;
+  background-color:gold;
+}.dot7 {
+  position:absolute;
+  margin-left:-400px;
+  margin-top:600px;
+  height: 100px;
+  width: 100px;
+  line-height:100px;
+  border-radius: 50%;
+  display:block;
+  background-color:gold;
+}.dot8 {
+  position:absolute;
+  margin-left:-400px;
+  margin-top:700px;
+  height: 100px;
+  width: 100px;
+  line-height:100px;
+  border-radius: 50%;
+  display:block;
+  background-color:gold;
+}
+  .dot9 {
+  position:absolute;
+  margin-left:-400px;
+  margin-top:800px;
+  height: 100px;
+  width: 100px;
+  line-height:100px;
+  border-radius: 50%;
+  display:block;
+  background-color:gold;
+}.dot10 {
+  position:absolute;
+  margin-left:-400px;
+  margin-top:900px;
+  height: 100px;
+  width: 100px;
+  line-height:100px;
+  border-radius: 50%;
+  display:block;
+  background-color:gold;
+}.dot11 {
+  position:absolute;
+  margin-left:-400px;
+  margin-top:1000px;
+  height: 100px;
+  width: 100px;
+  line-height:100px;
+  border-radius: 50%;
+  display:block;
+  background-color:gold;
+}.dot12 {
+  position:absolute;
+  margin-left:-400px;
+  margin-top:1100px;
+  height: 100px;
+  width: 100px;
+  line-height:100px;
+  border-radius: 50%;
+  display:block;
+  background-color:gold;
+}.dot13 {
+  position:absolute;
+  margin-left:-400px;
+  margin-top:1200px;
+  height: 100px;
+  width: 100px;
+  line-height:100px;
+  border-radius: 50%;
+  display:block;
+  background-color:gold;
+}.dot14 {
+  position:absolute;
+  margin-left:-400px;
+  margin-top:1300px;
+  height: 100px;
+  width: 100px;
+  line-height:100px;
+  border-radius: 50%;
+  display:block;
+  background-color:gold;
+}.dot15 {
+  position:absolute;
+  margin-left:-400px;
+  margin-top:1400px;
+  height: 100px;
+  width: 100px;
+  line-height:100px;
+  border-radius: 50%;
+  display:block;
+  background-color:gold;
+}.dot16 {
+  position:absolute;
+  margin-left:-400px;
+  margin-top:1500px;
+  height: 100px;
+  width: 100px;
+  line-height:100px;
+  border-radius: 50%;
+  display:block;
+  background-color:gold;
+}.dot17 {
+  position:absolute;
+  margin-left:-400px;
+  margin-top:1600px;
+  height: 100px;
+  width: 100px;
+  line-height:100px;
+  border-radius: 50%;
+  display:block;
+  background-color:gold;
+}.dot18 {
+  position:absolute;
+  margin-left:-400px;
+  margin-top:1700px;
+  height: 100px;
+  width: 100px;
+  line-height:100px;
+  border-radius: 50%;
+  display:block;
+  background-color:gold;
+}.dot19 {
+  position:absolute;
+  margin-left:-400px;
+  margin-top:1800px;
+  height: 100px;
+  width: 100px;
+  line-height:100px;
+  border-radius: 50%;
+  display:block;
+  background-color:gold;
+}
+table, th, td{
+  border-color:purple;
+  border-bottom: 2px solid #ddd;
+  height:97px;
+  width:1000px;
+}
+
+table {
+    border-collapse: collapse;
+}
+th {
+  width:1000px;
+  color:red;
+}
+td{
+  text-align:midle;
+}
+#mytable {
+  position:relative;
+  margin-top:0px;
+  margin-left:-300px;
+}
