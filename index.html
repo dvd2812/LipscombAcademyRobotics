@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script type="text/javascript">
+function startTime()
+{
+var today=new Date();
+var h=today.getHours();
+var m=today.getMinutes();
+var s=today.getSeconds();
+m=checkTime(m);
+s=checkTime(s);
+document.getElementById('txt').innerHTML=h+":"+m+":"+s;
+t=setTimeout('startTime()',500);
+}
+function checkTime(i)
+{
+if (i<10)
+{
+i="0" + i;
+}
+return i;
+}
+      </script>
+  </head>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <body onload="startTime()">
+    <div id="txt"></div>
+    <p class=link>links:</p>
+    <a href="./BB8.html">BB8</a><br/>
+    <a href="./BB8.html" target="_blank">new tab</a>
+    <a href="./Robotic.html">Robotic</a><br/>
+    <a href="./fund.html">Fund</a>
+    <a href="./test.html">test</a>
+    <a href="./test2.html">test2</a>
+    <a href="./test2.html" target="_blank">test2 new tab</a>
+    <a href="./about.html">about</a>
+  </body>
+</html>
