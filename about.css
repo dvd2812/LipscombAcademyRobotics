@@ -4,6 +4,24 @@ body {
   height:auto;
 }
 
+#banner {
+  background-image: url("https://lh3.googleusercontent.com/JHHmtrqoejuE-ymRGR3gGKgmxTiKHoclbZHV82pelivQDdtox7DM9RnhCZr3IvHmsAes1EsI4R4cb3bDNN9J4GtzFzQmPbCuba-kP57M1StWdo016zPPcVq_OZFsrKyzvNcdsviuxIUoGimn8zbXnxvbW0HvmWFGjMhY6DrMNvFQQau8zx7Up6Rhvw16WcwwePiPp3Q7TvwqzT3fvv4ETR4R_FdnkDRVACcgtegd-qdQ3xxoUpIMKEGkezvzvdnIT8szk1zd6JkvXKT_l8ly-0seUVaO76QJV2wz6xVbvHm9tuGP-OLh_QLPORr9B9L7VJonxlwFUTw7wp-3sntu1T2N0758Zl6jCauPvoR8o1apXACfciXGS-xrHpKjQUNENUEhRiup7bDzYH3olrJHjv9oWhiNIN6EJ0dhC5iX3aLeMSFvQqH9s4LJVEwEe52Ecul9u4r1e9Fc329uOnYE2CzNLbh40YDn4ysTyc1RFhl93Iz09AWQ__AQxwnQ9oQ2U7ngbu1quHNOkmOJnlbjw7XlsK4Npw_08SJYjP8Q5O-fHvo4eOPVeo4BKoaAttILokFVuO5iarFW35YbXGeqNe-sCkUjT2X-0jTTmHgPIzKaJC69enWodEkW2k1VX7eIjkkWQVC-Ft_LNNmyQTVVIvnpckX44fM=w1283-h855-no");
+  background-size: cover;
+  background-position: fixed;
+  height: 1100px;
+  width: fixed;
+  background-repeat:none;
+}
+
+#banner .content h1 {
+  border: 3px solid purple;
+  position: relative;
+  color:red;
+  top: 50px;
+  width: 400px;
+  margin: 0 auto;
+}
+
 .content {
   margin: 0 auto;
   padding: 40px;
@@ -376,3 +394,4 @@ td{
   margin-top:0px;
   margin-left:-300px;
 }
+
