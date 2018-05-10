@@ -24,15 +24,16 @@ body {
 }
 
 #banner {
-  background-image: url("http://images6.fanpop.com/image/photos/39100000/wp2-bb-8-unit-39150332-1940-1091.jpg");
+  background-image: url("https://lh3.googleusercontent.com/gcPbbAlw7Sww7QIzvfqYPRIZn4dxOigBhGbZCBkQQgVjOcIm4DVlCWUealnFiLsQmh-rAozC4XInZN1VS25wGzlPfAg4ModeDu3UG9Ug9yTN1T-ZOy8QUqkvUQUGt5_OLrsA2Uo9nkj4FNx-ejScrAkwbbeAZcdMoZM8cx6v0RB5xgZ3Hl3GVLeeSo-ijBvEcD4JtVk08mElC_m3ecCHhUs9mD6U_pfBP-bHFCjmG7Z3R17C84gwr-jmVui9wpAG34Rk4jH-KvjAPqu1iJu-mfNNN-VG5wW4ih25r51iQ0C2YhcmJ8AzPZO3cPkChf8huDfj14xGeKdO_t23v-0r4OW8VFZgiiSjDPfOV1Rqh0Fc1HBJwNp9jP4D7qggKF2d5o6wWzugowIW4xbzCPS4eHVC0vRZxWv-KVkItjhoNXwYnbAx1wWnjHZDMwDtemSqLJ5Fg0WCAMjldx6iJmO0dzOGtbAypVv2CkwuKnx0rSAUL6Uq01Gn04C91K2Y-qLMFWvhjJDoxtq1XTQu33Wa1andsUgwI34uJ-X2K4pDqxKWv1w8iZCoIs7CAE0UcIkTAMUmUUuYJo0CEhuw7eev_0A28ZfqEmvvA3kAHm_u4cbfHKebSu4ZDN_QMHY8LjcNANXaU8rWvmTbTRQ-OTB13UZWZJjUdA8=w1510-h1006-no");
   background-size: cover;
   background-position: fixed;
-  height: 700px;
+  height: 900px;
   width: 100%;
 }
 
 #banner .content h1 {
-  border: 3px solid white;
+  border: 3px solid purple;
+  color: gold;
   position: relative;
   top: 50px;
   width: 400px;
@@ -73,10 +74,10 @@ h3 {
 
 p {
   color: grey;
-  font-size: 16px;
+  font-size: 30px;
   line-height: 48px;
   margin-top: 60px;
-  padding: 10px 20px;
+  padding: 10px 0px;
 }
 
 .pull-quote {
