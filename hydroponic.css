@@ -24,15 +24,16 @@ body {
 }
 
 #banner {
-  background-image: url("http://images6.fanpop.com/image/photos/39100000/wp2-bb-8-unit-39150332-1940-1091.jpg");
+  background-image: url("https://lh3.googleusercontent.com/lpUPy_-EDr8PGenVMvB0l7Ipz7BujdGwWD3uOnF8PzuAV-HH3Npz3o-UzuheMHzk2LIg5SxXpetsHK9R_ePl1tTHRkuSRXx1rWjN0-UEDMe-zU47bE35o7VrOMjPAbNUeTvsbq3tSDRbY53Vm_3hLdxB4jjS1fOt3zQqniMxWji0mNXJbEwPPM1zeKii7ygUndqCy7xlGt1SQbXub4Ag708BdhnIvV2V3A-dRA0pmIyb-4QPGRRvDLqfRyAD3GEjUrURo3BPPpO2wvX2n7atlgQTTOCN4hLXECYFGsaKpTqsIxcWrVjuIsf2i2GJED6roTi17kK4UievR8ZrgeRM4h3aJd1t_Ds_ktwSdVnkGPUHi6Mtaa2F_ySE34t3t18pEIvKE1bfinv8EpeffZMGcYj7QvPxLjGR3jVmB6CtHL39_8sOYJKlapGxpW_bwjxoJJ4P8u3hAl4rdZzp-BQ6m0Lh_-RPHXDxboBqZvCiI1zCaDgjd4Byy762weeFUUUjFwq_gx9OY10rMa3aMOroOhmB0m4e5m3dK-lPSY_bMOhArz6eoQGOuYqn9jxyXJV4IUifp6cdY0I-4bXjA23skArH2XWsyB91YZqrB8MLbGExuAmyVJWXVIqOzQaEJBgn0QmxOmYQHMIX4VDf456GwmZmvL1Lb7Q=w1510-h1006-no");
   background-size: cover;
   background-position: fixed;
-  height: 700px;
+  height: 1200px;
   width: 100%;
 }
 
 #banner .content h1 {
-  border: 3px solid white;
+  border: 3px solid Purple;
+  color:gold;
   position: relative;
   top: 50px;
   width: 400px;
